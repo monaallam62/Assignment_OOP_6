@@ -14,6 +14,14 @@
             //abstracyion :When you withdraw money from an ATM, you only interact with options like Withdraw, Deposit, and Check Balance do not see the internal banking processes 
             //encapsulation: Your bank account balance is stored securely inside the banking system, and you cannot modify it directly
             #endregion
+            #region Question 2
+            //Q2 : What is the difference between an abstract class and an interface? Give at least four differences. When would you choose one over the other?
+            //1)Abstraction:What you can do - Defines identity & shared behavior -Can have fields and constructors-Methods can have any access modifier - A class can inherit only one abstract class - Can have fields and constructors
+            //1)Interface:What you are - Defines roles & capabilities - Cannot have fields or constructors - Methods are public by default - A class can implement multiple interfaces - Cannot have fields or constructors
+            //2)Usage
+            //Abstraction : You want to provide default behavior ,Classes share common implementation
+            //Interfaces:Multiple unrelated classes need the same behavior,You want to define a capability or contract
+            #endregion
         }
     }
 }
