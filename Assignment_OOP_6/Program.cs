@@ -34,6 +34,21 @@ namespace Assignment_OOP_6
             //c) If you call Status() on a Toaster object, what will it return? Why?
             //Standby , because the Toaster class does not override the Status() method, so it uses the default implementation from the base class Appliance
             #endregion
+            #region Question 4
+            //a) What is a partial class? Why would a developer split Calculator into two files?
+            //A partial class allows you to split a single class definition across multiple files — the compiler merges them into one class
+            //To organize large classes ,Protect manual code , Enable code generation , Facilitate team collaboration
+            //b) What is a partial method? What happens if the OnCalculated() implementation in Calculator.Logging.cs is deleted — will the code still compile? Why?
+            //A partial method is declared in one part of a partial class and optionally implemented in another part
+            //If the implementation in Calculator.Logging.cs is deleted, the code will still compile
+            //Because the compiler removes the method call completely if no implementation exists
+            //c) What is an extension method? What are the three rules for writing one?
+            //An extension method lets you add new methods to an existing type without modifying its source code, without inheritance, and without recompiling
+            //Three rules
+            //The method must be inside a static class,The method itself must be static, The first parameter must specify the type being extended and be preceded by the this keyword
+            //d) What will the following code print?
+            //the result =19.5 + 0.5 = 20.00
+            #endregion
         }
     }
 }
