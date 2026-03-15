@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Assignment_OOP_6.Classes;
+using Assignment_OOP_6.Enum;
+using System;
 
 namespace Assignment_OOP_6
 {
@@ -48,6 +50,38 @@ namespace Assignment_OOP_6
             //The method must be inside a static class,The method itself must be static, The first parameter must specify the type being extended and be preceded by the this keyword
             //d) What will the following code print?
             //the result =19.5 + 0.5 = 20.00
+            #endregion
+            #region Question 5
+            //Cinema cinema = new Cinema();
+            //cinema.OpenCinema();
+            //SeatLocation seat = new SeatLocation(TypeOfTicket.A, 5);
+            //StandardTicket t1 = new StandardTicket("Inception", 80, seat);
+            //VIPTicket t2 = new VIPTicket("Avengers", 200, true);
+            //IMAXTicket t3 = new IMAXTicket("Dune", 130, true);
+
+            //t1.Book();
+            //t2.Book();
+            //t3.Book();
+
+            //cinema.AddTicket(t1);
+            //cinema.AddTicket(t2);
+            //cinema.AddTicket(t3);
+
+            //cinema.PrintAllTickets();
+
+            //Console.WriteLine("\n--- Polymorphism: Final Price per Ticket ---");
+
+            //Ticket[] arr = { t1, t2, t3 };
+
+            //foreach (var t in arr)
+            //{
+            //    Console.WriteLine($"{t.GetType().Name} => Final Price: {t.CalculateFinalPrice():0.00}");
+            //}
+            //Console.WriteLine("\n--- Extension Method: Receipt ---");
+            //Console.WriteLine(t2.GenerateReceipt());
+            //Console.WriteLine("\n--- Extension Method: Total Revenue ---");
+            //Console.WriteLine($"Total Revenue: {arr.TotalRevenue():0.00}");
+            //cinema.CloseCinema();
             #endregion
         }
     }
